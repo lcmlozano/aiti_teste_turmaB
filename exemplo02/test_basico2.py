@@ -3,6 +3,6 @@ def eh_positivo(numero):
 
 def test_eh_positivo():
     assert eh_positivo(5) == True
-    assert eh_positivo(6) == False
+    assert eh_positivo(-5) == False
 
 
